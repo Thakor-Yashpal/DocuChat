@@ -51,7 +51,7 @@ if os.name == "nt":  # Windows
 # MONGO_URL = os.environ.get("MONGO_URL")  # MongoDB connection URL
 # S3_PATH = os.environ.get("S3_PATH")  # AWS S3 pathi
 
-os.environ['OPENAI_API_KEY']="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"
+os.environ['OPENAI_API_KEY']="openAI key"
 S3_KEY=""
 S3_SECRET=""
 S3_BUCKET=""
@@ -60,7 +60,7 @@ S3_PATH=""
 
 
 try:
-    MONGO_URL="mongodb+srv://admin:admin@cluster0.jyupp.mongodb.net/?retryWrites=true&w=majority&ssl=true"
+    MONGO_URL="URL"
 
     # Connect to the MongoDB using the provided MONGO_URL
     client = pymongo.MongoClient(MONGO_URL, uuidRepresentation="standard")
