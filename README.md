@@ -16,4 +16,4 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone [gh repo clone Thakor-Yashpal/DocuChat)
+   git clone [https://github.com/Thakor-Yashpal/DocuChat.git)
